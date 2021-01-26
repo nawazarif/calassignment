@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nawaz Calculator Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <div class="main">
+        <div class="inputField">
+            <input type="text"  class="inputscreen">
+        </div>
+        <div class="buttons">
+<button>1</button>
+<button>2</button>
+<button>3</button>
+<button>4</button>
+<button>5</button>
+<button>6</button>
+<button>7</button>
+<button>8</button>
+<button>9</button>
+<button>0</button>
+<button>+</button>
+<button>-</button>
+<button>*</button>
+<button>/</button>
+<button>CE</button>
+        </div>
+    </div> -->
+
+<div class="main">
+    <div class="inside">
+        <div onclick="screen()" class="input">
+            <input id="screen" type="text" class="screen" placeholder="Nawaz Calculator Assignment" disabled>
+        </div>
+        <div id="buttons">
+            <button onclick="clr()" class="operator" id="clear">C</button>
+            <button onclick="backSpace()"class="operator" id="backspace">CE</button>
+            <button onclick="screen('%')"class="operator" id="%">%</button>
+            <button onclick="screen('/')"class="operator" id="divide">/</button>
+            <button onclick="screen('7')" class="number" id="7">7</button>
+            <button onclick="screen('8')" class="number" id="8">8</button>
+            <button onclick="screen('9')"class="number" id="9">9</button>
+            <button onclick="screen('*')" class="operator" id="multi">*</button>
+            <button onclick="screen('4')"class="number" id="4">4</button>
+            <button onclick="screen('5')"class="number" id="5">5</button>
+            <button onclick="screen('6')" class="number" id="6">6</button>
+            <button onclick="screen('-')"class="operator" id="minus">-</button>
+            <button onclick="screen('1')"class="number" id="1">1</button>
+            <button onclick="screen('2')"class="number" id="2">2</button>
+            <button onclick="screen('3')"class="number" id="3">3</button>
+            <button onclick="screen('+')"class="operator" id="plus">+</button>
+            <button class="empty" id="empty"></button>
+            <button onclick="screen('0')"class="number" id="0">0</button>
+            <button class="empty" id="empty"></button>
+            <button onclick="solve()"class="operator" id="equal">=</button>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>

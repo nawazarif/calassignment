@@ -1,0 +1,116 @@
+/* .main{
+    border: 1px solid black;
+    padding: 6px;
+    width: 320px;
+    height: 520px;
+
+}
+.inputField{
+    width: 1000px;
+    height: 5px;
+} */
+
+
+.main{
+    border: 1px solid black;
+    width: 380px;
+    height: 490px;
+    background-color: whitesmoke;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10%;
+    border-radius: 7%;
+    box-shadow: 5px 5px rgb(141, 140, 140);
+}
+.screen{
+    width: 320px;
+    height: 37px;
+    border-radius: 10%;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 7px;
+    
+}
+
+.inside{
+    width: 350px;
+    height: 400px;
+    padding: 22px;
+}
+/* .buttons{
+    width: 20px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+.operator, .number, .empty{
+	width: 50px;
+	height: 50px;
+	margin: 15px;
+	float: left;
+	border-radius: 50%;
+	border-width: 0;
+	font-weight: bold;
+	font-size: 15px;
+}
+.operator:focus, .number:focus, .empty:focus{
+	outline: 0;
+}
+.operator:hover, .number:hover{
+	background-color: rgb(148, 143, 143);
+}
+
+
+#divide{
+    font-size: 20px;
+	background-color: #20b2aa;
+}
+
+#divide:hover{
+	background-color: rgb(148, 143, 143);
+}
+
+
+#multi{
+    font-size: 20px;
+	background-color: #ffa500;
+}
+
+#multi:hover{
+	background-color: rgb(148, 143, 143);
+}
+
+
+
+#minus{
+    font-size: 20px;
+	background-color: #f08080; 
+}
+
+#minus:hover{
+	background-color: rgb(148, 143, 143);
+}
+
+
+#plus{
+    font-size: 20px;
+	background-color: #7d93e0;
+}
+
+#plus:hover{
+	background-color: rgb(148, 143, 143);
+}
+
+
+
+
+#equal{
+    font-size: 20px;
+	background-color: #9477af; 
+}
+
+#equal:hover{
+	background-color: rgb(148, 143, 143);
+}
